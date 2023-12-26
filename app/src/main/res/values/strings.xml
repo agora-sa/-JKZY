@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">JKZY-Demo</string>
+
+    <string name="sdkversion">SDK Version</string>
+    <string name="sdkversion1">V%s</string>
+    <string name="area">Area</string>
+    <string name="resolution">Resolution</string>
+    <string name="framerate">Frame Rate</string>
+    <string name="video_orientation">Video Orientation</string>
+    <string name="ORIENTATION_MODE_ADAPTIVE">Adaptive</string>
+    <string name="ORIENTATION_MODE_FIXED_LANDSCAPE">Fixed Landscape</string>
+    <string name="ORIENTATION_MODE_FIXED_PORTRAIT">Fixed Portrait</string>
+
+    <string name="private_clound">Private Cloud</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ip_address_input_hint">please input IP</string>
+    <string name="log_report">Log Report</string>
+    <string name="log_server_domain">Log Server Domain</string>
+    <string name="log_server_domain_input_hint">Please input log server domain</string>
+    <string name="log_server_port">Log Server Port</string>
+    <string name="log_server_port_input_hint">Please input log server port</string>
+    <string name="log_server_path">Log Server Path</string>
+    <string name="log_server_path_input_hint">Please input log server path</string>
+    <string name="use_https">Use Https</string>
+
+    <string name="chanel_support_char" translatable="false">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890 !#$%()+-:;&lt;=.>?@[]^_{}|~,&amp;</string>
+
+
+    <string name="remote_screenshot">Remote screenshot</string>
+    <string name="enable_publish">Start Co-host</string>
+    <string name="preload">Preload</string>
+    <string name="channel_id">Channel ID</string>
+
+    <string name="setting">Setting</string>
+    <string name="enable_low_latency">Enable Ultra Low Latency</string>
+    <string name="watermark">Watermark</string>
+    <string name="low_stream">Low Stream</string>
+    <string name="encode_type">Encode Type</string>
+    <string name="b_frame">B Frame</string>
+    <string name="first_frame_optimization">First Frame Optimization</string>
+    <string name="render_mode">RenderMode</string>
+    <string name="view_bg_color">View background color</string>
+
+    <string name="tip">Tip</string>
+    <string name="first_frame_optimization_tip">It cannot be turned off after it is turned on, and it will take effect only when both the main and auxiliary ends are turned on</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+
+    <string name="render_mode_hidden">Hidden</string>
+    <string name="render_mode_fit">Fit</string>
+    <string name="render_mode_adaptive">Adaptive</string>
+
+    <string name="remote_screenshot_tip">There is not remote user, please join channel and wait for remote user joining.</string>
+    <string name="disnable_publish">Stop Co-host</string>
+</resources>

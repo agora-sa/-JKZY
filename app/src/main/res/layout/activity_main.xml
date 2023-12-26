@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="设置"
+        android:id="@+id/btn_setting"
+        android:background="@drawable/btn_bg"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_bg"
+        android:layout_centerInParent="true"
+        android:text="视频会议" />
+
+    <Button
+        android:id="@+id/btn_broadcast"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn_bg"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/btn_enter"
+        android:text="视频直播" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>
